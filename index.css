@@ -251,6 +251,98 @@ a:hover {
 
 
 
+/* ------RESPONSIV-------- */
+
+
+@media (max-width: 900px) {
+  h1{
+    font-size:90px ;
+    margin-top: 130px;
+  }
+  
+  ul{
+    padding-right: 20px;
+  }
+  }
+
+@media (max-width: 700px) {
+h1{
+  font-size:60px ;
+  margin-top: 130px;
+}
+
+ol li{
+  padding-left: 2rem;
+}
+
+img{
+  width: 200px;
+}
+.s2{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.ommi{
+  padding-top: 80px;
+  margin-left: 60px;
+}
+.s4{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.img_container2 {
+  display: none;
+}
+
+.img_container3 {
+  position: block; 
+}
+
+.li{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.lii{
+  width: 110px;
+  margin:5px ;
+}
+
+ul{
+  padding-right: 10px;
+}
+
+.img_container3::before{
+  height: 0;
+  width: 0;
+}
+
+.img_container3{
+  padding-left: 140px;
+  margin-top: 100px;
+}
+
+.kontaktt{
+  margin-top: -100px;
+  padding-left: 120px;
+}
+}
+
+
+
+
+/* .s2{
+  background-color: rgb(250, 217, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 6rem;
+  grid-template-rows: 1fr 1fr;
+} */
+
 
 /* ----ANIMATION---- */
 
